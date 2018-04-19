@@ -11,6 +11,7 @@ Całkowita kwota do zapłaty wynosi: {price}$.\n"""
 def make_message(names, amountes):
     if len(names) == len(amountes):
         i = 0
+        
         today = datetime.date.today()
         text = '{today.day}/{today.month}/{today.year}'.format(today=today)
 
