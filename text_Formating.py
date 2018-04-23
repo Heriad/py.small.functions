@@ -7,7 +7,6 @@ message = """Witaj {name}!
 Dziękujemy za dokonany przez Ciebie zakup z dnia {date}
 Całkowita kwota do zapłaty wynosi: {price}$.\n"""
 
-
 def make_message(names, amountes):
     if len(names) == len(amountes):
         i = 0
@@ -26,6 +25,5 @@ def make_message(names, amountes):
             )
             i += 1
             print(new_message)
-
 
 make_message(list_names, list_amountes)
